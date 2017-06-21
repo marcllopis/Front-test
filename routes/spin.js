@@ -25,7 +25,7 @@ router.get('/', function(req, res, next) {
            },
            prize:{  
               id: getRandomInt(1, 14),
-              prev:getRandomInt(1, 14),
+              prev:getRandomInt(1, 15),//si, esta hecho pa dar un numero que no existe
               next:getRandomInt(1, 14),
            }
 }
