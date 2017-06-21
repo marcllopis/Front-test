@@ -10,32 +10,27 @@ router.get('/', function(req, res, next) {
 	                {
 	                    id: 1,
 	                    name: "100 eXP",
-	                    img: "/images/100exp.png?v=3",
-	                    porcentaje:Math.random()
+	                    img: "/images/100exp.png?v=3"
 	                },
 	                {
 	                    id: 2,
 	                    name: "200 eXP",
-	                    img: "/images/200exp.png?v=3",
-	                    porcentaje:Math.random()
+	                    img: "/images/200exp.png?v=3"
 	                },
 	                {
 	                    id: 3,
 	                    name: "Pack eDraw Tickets x10",
-	                    img: "/images/10t.png?v=3",
-	                    porcentaje:Math.random()
+	                    img: "/images/10t.png?v=3"
 	                },
 	                {
 	                    id: 4,
 	                    name: "Pack eDraw Tickets x20",
-	                    img: "/images/20t.png?v=3",
-	                    porcentaje:Math.random()
+	                    img: "/images/20t.png?v=3"
 	                },
 	                {
 	                    id: 5,
 	                    name: "Pack eDraw Tickets x30",
-	                    img: "/images/30t.png?v=3",
-	                    porcentaje:Math.random()
+	                    img: "/images/30t.png?v=3"
 	                },
 	                {
 	                    id: 6,
@@ -85,6 +80,12 @@ router.get('/', function(req, res, next) {
 	                    img: "/images/juegospin.png?v=3",
 	                    porcentaje:Math.random()
 	                },
+	                {
+	                    id: 15,//Este juego no tiene imagen. 
+	                    name: "Juego PC Premium",
+	                    img: "/images/juegospinpremium.png?v=3",
+	                    porcentaje:Math.random()
+	                }
 	                            ]
 }
     	));
